@@ -757,8 +757,6 @@ MelodyMaster is a modified version of the Shazamio library.
 
 We would like to express our gratitude to everyone who contributed to the modification of the MelodyMaster library, which is based on the Shazamio library.
 
-Special thanks to:
-- [List of contributors' names or usernames]
 
 ## Contact Us
 
