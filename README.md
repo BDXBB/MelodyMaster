@@ -418,7 +418,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
 
 ## How to use in Terminal
 
-. **recognize_song**: Used to recognize songs.
+ **recognize_song**: Used to recognize songs.
 
    Example:
    ```
@@ -450,14 +450,14 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example searches for the album with the ID 123.
 
-. **get_default_lyrics**: Used to get the default lyrics of a song.
+**get_default_lyrics**: Used to get the default lyrics of a song.
 
    Example:
    ```
    MelodyMaster get_default_lyrics --title "Song Title" --srt "true"
    ```
    This example means you want to get the lyrics of the song titled "Song Title" and --srt if true give you lyrics with time if --srt false just lyrics
-. **get_alternative_lyrics**: Used to get alternative lyrics of a song.
+**get_alternative_lyrics**: Used to get alternative lyrics of a song.
 
    Example:
    ```
@@ -471,10 +471,14 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    MelodyMaster recognize_text --file_path "path/to/audio_file" --lang "en-GB"
    ```
-   This example means you want to recognize the text from the audio file located at "path/to/audio_file" the lang for language .
-   
-   
-   Afrikaans (South Africa) : af-ZA  
+   This example means you want to recognize the text from the audio file located at "path/to/audio_file" the lang for language you can find it .
+   <details> 
+<summary>
+<i>here</i>
+</summary>
+
+  ```python3
+ Afrikaans (South Africa) : af-ZA  
  Albanian (Albania) : sq-AL  
  Albanian (Albania) : sq-AL  
  Amharic (Ethiopia) : am-ET  
@@ -743,3 +747,6 @@ mk-MK
  Vietnamese (Vietnam) : vi-VN  
  Zulu (South Africa) : zu-ZA  
  Zulu (South Africa) : zu-ZA  
+  ```
+</details>
+
