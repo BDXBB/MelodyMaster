@@ -749,3 +749,17 @@ mk-MK
  Zulu (South Africa) : zu-ZA  
 </details>
 
+# MelodyMaster
+
+MelodyMaster is a modified version of the Shazamio library.
+
+## Acknowledgements
+
+We would like to express our gratitude to everyone who contributed to the modification of the MelodyMaster library, which is based on the Shazamio library.
+
+Special thanks to:
+- [List of contributors' names or usernames]
+
+## Contact Us
+
+For any inquiries or feedback, you can reach us on Telegram at [@BDXBB](https://t.me/BDXBB).
