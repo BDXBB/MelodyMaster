@@ -457,6 +457,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    MelodyMaster get_default_lyrics --title "Song Title" --srt "true"
    ```
    This example means you want to get the lyrics of the song titled "Song Title" and --srt if true give you lyrics with time if --srt false just lyrics
+   
 6 .**get_alternative_lyrics**: Used to get alternative lyrics of a song.
 
    Example:
