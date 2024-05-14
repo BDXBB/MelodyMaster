@@ -416,5 +416,330 @@ loop.run_until_complete(main())
 Agree, thanks to the serializer, you no longer need to manually select the necessary data from the dictionary. Now the serializer contains the most necessary information about an artist or a track.
 
 
-## How to use in teminal
+## How to use in Terminal
 
+. **recognize_song**: Used to recognize songs.
+
+   Example:
+   ```
+   MelodyMaster recognize_song --file_path "path/to/audio_file"
+   ```
+   This example indicates that you want to recognize the song using the audio file located at "path/to/audio_file".
+
+**about_artist**: Used to get information about an artist.
+
+   Example:
+   ```
+   MelodyMaster about_artist --artist_id "Artist id"
+   ```
+   This example requests information about the artist named "Artist id".
+
+ **recognize_and_search**: Used to recognize songs and search for the song's name.
+
+   Example:
+   ```
+   MelodyMaster recognize_and_search --file_path "path/to/audio_file"
+   ```
+   This example means you want to recognize the song using the audio file located at "path/to/audio_file" and search for the song's name.
+
+**search_album**: Used to search for an album using the album ID.
+
+   Example:
+   ```
+   MelodyMaster search_album --album_id 123
+   ```
+   This example searches for the album with the ID 123.
+
+. **get_default_lyrics**: Used to get the default lyrics of a song.
+
+   Example:
+   ```
+   MelodyMaster get_default_lyrics --title "Song Title" --srt "true"
+   ```
+   This example means you want to get the lyrics of the song titled "Song Title" and --srt if true give you lyrics with time if --srt false just lyrics
+. **get_alternative_lyrics**: Used to get alternative lyrics of a song.
+
+   Example:
+   ```
+   MelodyMaster get_alternative_lyrics --title "Song Title" --artist "Artist Name" --duration "Duration" --str "true"
+   ```
+   This example means you want to get the alternative lyrics of the song titled "Song Title" by the artist "Artist Name" with duration "Duration". duration and Artist name optional
+
+ **recognize_text**: Used to recognize text from an audio file.
+
+   Example:
+   ```
+   MelodyMaster recognize_text --file_path "path/to/audio_file" --lang "en-GB"
+   ```
+   This example means you want to recognize the text from the audio file located at "path/to/audio_file" the lang for language .
+   
+   
+   Afrikaans (South Africa) : af-ZA  
+ Albanian (Albania) : sq-AL  
+ Albanian (Albania) : sq-AL  
+ Amharic (Ethiopia) : am-ET  
+ Amharic (Ethiopia) : am-ET  
+ Arabic (Algeria) : ar-DZ  
+ Arabic (Algeria) : ar-DZ  
+ Arabic (Bahrain) : ar-BH  
+ Arabic (Bahrain) : ar-BH  
+ Arabic (Egypt) : ar-EG  
+ Arabic (Egypt) : ar-EG  
+ Arabic (Iraq) : ar-IQ  
+ Arabic (Iraq) : ar-IQ  
+ Arabic (Israel) : ar-IL  
+ Arabic (Israel) : ar-IL  
+ Arabic (Jordan) : ar-JO  
+ Arabic (Jordan) : ar-JO  
+ Arabic (Kuwait) : ar-KW  
+ Arabic (Kuwait) : ar-KW  
+ Arabic (Lebanon) : ar-LB  
+ Arabic (Lebanon) : ar-LB  
+ Arabic (Morocco) : ar-MA  
+ Arabic (Morocco) : ar-MA  
+ Arabic (Oman) : ar-OM  
+ Arabic (Oman) : ar-OM  
+ Arabic (Qatar) : ar-QA  
+ Arabic (Qatar) : ar-QA  
+ Arabic (Saudi Arabia) : ar-SA  
+ Arabic (Saudi Arabia) : ar-SA  
+ Arabic (Palestine) : ar-PS  
+ Arabic (Palestine) : ar-PS  
+ Arabic (Tunisia) : ar-TN  
+ Arabic (Tunisia) : ar-TN  
+ Arabic (UAE) : ar-AE
+ Arabic (Yemen) : ar-YE  
+ Arabic (Yemen) : ar-YE  
+ Armenian (Armenia) : hy-AM  
+ Armenian (Armenia) : hy-AM  
+ Azerbaijani (Azerbaijan) : az-AZ  
+ Azerbaijani (Azerbaijan) : az-AZ  
+ Basque (Spain) : eu-ES  
+ Basque (Spain) : eu-ES  
+ Bengali (Bangladesh) : bn-BD  
+ Bengali (Bangladesh) : bn-BD  
+ Bengali (India) : bn-IN  
+ Bengali (India) : bn-IN  
+ Bosnian (Bosnia Herzegovina) : bs-BA  
+ Bosnian (Bosnia Herzegovina) : bs-BA  
+ Bulgarian (Bulgaria) : bg-BG  
+ Bulgarian (Bulgaria) : bg-BG  
+ Burmese (Myanmar) : my-MM  
+ Burmese (Myanmar) : my-MM  
+ Catalan (Spain) : ca-ES  
+ Catalan (Spain) : ca-ES  
+ Chinese, Cantonese (Traditional Hong Kong) : yue-Hant-HK  
+ Chinese, Mandarin (Simplified, China) : zh (cmn-Hans-CN)
+ Chinese, Mandarin (Traditional, Taiwan) : zh-TW (cmn-Hant-TW)
+ Croatian (Croatia) : hr-HR  
+ Croatian (Croatia) : hr-HR  
+ Czech (Czech Republic) : cs-CZ
+ Czech (Czech Republic) : cs-CZ
+ Danish (Denmark) : da-DK
+ Danish (Denmark) : da-DK
+ Dutch (Belgium) : nl-BE  
+ Dutch (Belgium) : nl-BE  
+ Dutch (Netherlands) : nl-NL
+ Dutch (Netherlands) : nl-NL
+ English (Australia) : en-AU
+ English (Australia) : en-AU
+ English (Canada) : en-CA
+ English (Canada) : en-CA  
+ English (Ghana) : en-GH
+ English (Ghana) : en-GH
+ English (Hong Kong) : en-HK
+ English (Hong Kong) : en-HK
+ English (India) : en-IN
+ English (India) : en-IN
+ English (Ireland) : en-IE
+ English (Ireland) : en-IE
+ English (Kenya) : en-KE
+ English (Kenya) : en-KE
+ English (New Zealand) : en-NZ
+ English (New Zealand) : en-NZ
+ English (Nigeria) : en-NG
+ English (Nigeria) : en-NG
+ English (Pakistan) : en-PK
+ English (Pakistan) : en-PK
+ English (Philippines) : en-PH
+ English (Philippines) : en-PH  
+ English (Singapore) : en-SG
+ English (Singapore) : en-SG
+ English (South Africa) : en-ZA
+ English (South Africa) : en-ZA
+ English (Tanzania) : en-TZ
+ English (Tanzania) : en-TZ  
+ English (United Kingdom) : en-GB      
+ English (United States) : en-US    
+ English (United States) : en-US    
+ Estonian (Estonia) : et-EE  
+ Estonian (Estonia) : et-EE  
+ Filipino (Philippines) : fil-PH  
+ Filipino (Philippines) : fil-PH  
+ Finnish (Finland) : fi-FI
+ Finnish (Finland) : fi-FI
+ French (Belgium) : fr-BE
+ French (Belgium) : fr-BE
+ French (Canada) : fr-CA
+ French (Canada) : fr-CA
+ French (France) : fr-FR   
+ French (France) : fr-FR  
+ French (Switzerland) : fr-CH
+ French (Switzerland) : fr-CH
+ Galician (Spain) : gl-ES  
+ Galician (Spain) : gl-ES  
+ Georgian (Georgia) : ka-GE  
+ Georgian (Georgia) : ka-GE  
+ German (Austria) : de-AT  
+ German (Austria) : de-AT  
+ German (Germany) : de-DE
+ German (Germany) : de-DE
+ German (Switzerland) : de-CH  
+ German (Switzerland) : de-CH  
+ Greek (Greece) : el-GR  
+ Greek (Greece) : el-GR  
+ Gujarati (India) : gu-IN  
+ Gujarati (India) : gu-IN  
+ Hebrew (Israel) : iw-IL
+ Hebrew (Israel) : iw-IL
+ Hindi (India) : hi-IN
+ Hindi (India) : hi-IN
+ Hungarian (Hungary) : hu-HU  
+ Hungarian (Hungary) : hu-HU  
+ Icelandic (Iceland) : is-IS  
+ Icelandic (Iceland) : is-IS  
+ Indonesian (Indonesia) : id-ID
+ Indonesian (Indonesia) : id-ID
+ Italian (Italy) : it-IT
+ Italian (Italy) : it-IT
+ Italian (Switzerland) : it-CH  
+ Italian (Switzerland) : it-CH  
+ Japanese (Japan) : ja-JP     
+ Japanese (Japan) : ja-JP    
+ Javanese (Indonesia) : jv-ID  
+ Javanese (Indonesia) : jv-ID  
+ Kannada (India) : kn-IN  
+ Kannada (India) : kn-IN  
+ Kazakh (Kazakhstan) : kk-KZ  
+ Kazakh (Kazakhstan) : kk-KZ  
+ Khmer (Cambodia) : km-KH  
+ Khmer (Cambodia) : km-KH  
+ Korean (South Korea) : ko-KR
+ Korean (South Korea) : ko-KR
+ Lao (Laos) : lo-LA  
+ Lao (Laos) : lo-LA  
+ Latvian (Latvia) : lv-LV  
+ Latvian (Latvia) : lv-LV  
+ Lithuanian (Lithuania) : lt-LT  
+ Lithuanian (Lithuania) : lt-LT  
+ Macedonian (North Macedonia) :
+mk-MK  
+ Macedonian (North Macedonia) : mk-MK  
+ Malay (Malaysia) : ms-MY  
+ Malay (Malaysia) : ms-MY  
+ Malayalam (India) : ml-IN
+ Malayalam (India) : ml-IN
+ Marathi (India) : mr-IN  
+ Marathi (India) : mr-IN  
+ Mongolian (Mongolia) : mn-MN  
+ Mongolian (Mongolia) : mn-MN  
+ Nepali (Nepal) : ne-NP  
+ Nepali (Nepal) : ne-NP  
+ Norwegian Bokmål (Norway): no-NO
+ Norwegian Bokmål (Norway): no-NO
+ Persian (Iran) : fa-IR  
+ Persian (Iran) : fa-IR  
+ Polish (Poland) : pl-PL
+ Polish (Poland) : pl-PL
+ Portuguese (Brazil) : pt-BR
+ Portuguese (Brazil) : pt-BR
+ Portuguese (Portugal) : pt-PT
+ Portuguese (Portugal) : pt-PT
+ Punjabi (Gurmukhi India) : pa-Guru-IN  
+ Punjabi (Gurmukhi India) : pa-Guru-IN  
+ Romanian (Romania) : ro-RO  
+ Romanian (Romania) : ro-RO  
+ Russian (Russia) : ru-RU
+ Russian (Russia) : ru-RU
+ Russian (Russia) : ru-RU     
+ Russian (Russia) : ru-RU    
+ Serbian (Serbia) : sr-RS  
+ Serbian (Serbia) : sr-RS  
+ Sinhala (Sri Lanka) : si-LK  
+ Sinhala (Sri Lanka) : si-LK  
+ Slovak (Slovakia) : sk-SK  
+ Slovak (Slovakia) : sk-SK  
+ Slovenian (Slovenia) : sl-SI  
+ Slovenian (Slovenia) : sl-SI  
+ Spanish (Argentina) : es-AR  
+ Spanish (Argentina) : es-AR  
+ Spanish (Bolivia) : es-BO  
+ Spanish (Bolivia) : es-BO  
+ Spanish (Chile) : es-CL  
+ Spanish (Chile) : es-CL  
+ Spanish (Colombia) : es-CO  
+ Spanish (Colombia) : es-CO  
+ Spanish (Costa Rica) : es-CR  
+ Spanish (Costa Rica) : es-CR  
+ Spanish (Dominican Rep.) : es-DO
+ Spanish (Ecuador) : es-EC  
+ Spanish (Ecuador) : es-EC  
+ Spanish (El Salvador) : es-SV  
+ Spanish (El Salvador) : es-SV  
+ Spanish (Guatemala) : es-GT  
+ Spanish (Guatemala) : es-GT  
+ Spanish (Honduras) : es-HN  
+ Spanish (Honduras) : es-HN  
+ Spanish (Mexico) : es-MX  
+ Spanish (Mexico) : es-MX  
+ Spanish (Nicaragua) : es-NI  
+ Spanish (Nicaragua) : es-NI  
+ Spanish (Panama) : es-PA  
+ Spanish (Panama) : es-PA  
+ Spanish (Paraguay) : es-PY  
+ Spanish (Paraguay) : es-PY  
+ Spanish (Peru) : es-PE  
+ Spanish (Peru) : es-PE  
+ Spanish (Puerto Rico) : es-PR  
+ Spanish (Puerto Rico) : es-PR  
+ Spanish (Spain) : es-ES
+ Spanish (Spain) : es-ES    
+ Spanish (United States) : es-US    
+ Spanish (Uruguay) : es-UY  
+ Spanish (Uruguay) : es-UY  
+ Spanish (Venezuela) : es-VE  
+ Spanish (Venezuela) : es-VE  
+ Sundanese (Indonesia) : su-ID  
+ Sundanese (Indonesia) : su-ID  
+ Swahili (Kenya) : sw-KE  
+ Swahili (Kenya) : sw-KE  
+ Swahili (Tanzania) : sw-TZ  
+ Swahili (Tanzania) : sw-TZ  
+ Swedish (Sweden) : sv-SE
+ Swedish (Sweden) : sv-SE
+ Tamil (India) : ta-IN  
+ Tamil (India) : ta-IN  
+ Tamil (Malaysia) : ta-MY  
+ Tamil (Malaysia) : ta-MY  
+ Tamil (Singapore) : ta-SG  
+ Tamil (Singapore) : ta-SG  
+ Tamil (Sri Lanka) : ta-LK  
+ Tamil (Sri Lanka) : ta-LK  
+ Telugu (India) : te-IN  
+ Telugu (India) : te-IN  
+ Thai (Thailand) : th-TH  
+ Thai (Thailand) : th-TH  
+ Turkish (Turkey) : tr-TR
+ Turkish (Turkey) : tr-TR
+ Ukrainian (Ukraine) : uk-UA  
+ Ukrainian (Ukraine) : uk-UA  
+ Urdu (India) : ur-IN  
+ Urdu (India) : ur-IN  
+ Urdu (Pakistan) : ur-PK  
+ Urdu (Pakistan) : ur-PK  
+ Uzbek (Uzbekistan) : uz-UZ  
+ Uzbek (Uzbekistan) : uz-UZ  
+ Vietnamese (Vietnam) : vi-VN  
+ Vietnamese (Vietnam) : vi-VN  
+ Zulu (South Africa) : zu-ZA  
+ Zulu (South Africa) : zu-ZA  
