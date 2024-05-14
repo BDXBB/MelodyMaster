@@ -414,3 +414,7 @@ loop.run_until_complete(main())
 </details>
 
 Agree, thanks to the serializer, you no longer need to manually select the necessary data from the dictionary. Now the serializer contains the most necessary information about an artist or a track.
+
+
+## How to use in teminal
+
