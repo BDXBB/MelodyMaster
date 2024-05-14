@@ -476,8 +476,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
 <summary>
 <i>here</i>
 </summary>
-
-  ```python3
+     
  Afrikaans (South Africa) : af-ZA  
  Albanian (Albania) : sq-AL  
  Albanian (Albania) : sq-AL  
@@ -747,6 +746,5 @@ mk-MK
  Vietnamese (Vietnam) : vi-VN  
  Zulu (South Africa) : zu-ZA  
  Zulu (South Africa) : zu-ZA  
-  ```
 </details>
 
