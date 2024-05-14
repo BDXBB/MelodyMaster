@@ -418,7 +418,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
 
 ## How to use in Terminal
 
- **recognize_song**: Used to recognize songs.
+1. **recognize_song**: Used to recognize songs.
 
    Example:
    ```
@@ -426,7 +426,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example indicates that you want to recognize the song using the audio file located at "path/to/audio_file".
 
-**about_artist**: Used to get information about an artist.
+2. **about_artist**: Used to get information about an artist.
 
    Example:
    ```
@@ -434,7 +434,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example requests information about the artist named "Artist id".
 
- **recognize_and_search**: Used to recognize songs and search for the song's name.
+3. **recognize_and_search**: Used to recognize songs and search for the song's name.
 
    Example:
    ```
@@ -442,7 +442,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example means you want to recognize the song using the audio file located at "path/to/audio_file" and search for the song's name.
 
-**search_album**: Used to search for an album using the album ID.
+4. **search_album**: Used to search for an album using the album ID.
 
    Example:
    ```
@@ -450,14 +450,14 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example searches for the album with the ID 123.
 
-**get_default_lyrics**: Used to get the default lyrics of a song.
+5 .**get_default_lyrics**: Used to get the default lyrics of a song.
 
    Example:
    ```
    MelodyMaster get_default_lyrics --title "Song Title" --srt "true"
    ```
    This example means you want to get the lyrics of the song titled "Song Title" and --srt if true give you lyrics with time if --srt false just lyrics
-**get_alternative_lyrics**: Used to get alternative lyrics of a song.
+6 .**get_alternative_lyrics**: Used to get alternative lyrics of a song.
 
    Example:
    ```
@@ -465,7 +465,7 @@ Agree, thanks to the serializer, you no longer need to manually select the neces
    ```
    This example means you want to get the alternative lyrics of the song titled "Song Title" by the artist "Artist Name" with duration "Duration". duration and Artist name optional
 
- **recognize_text**: Used to recognize text from an audio file.
+ 7. **recognize_text**: Used to recognize text from an audio file.
 
    Example:
    ```
