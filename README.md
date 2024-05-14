@@ -17,7 +17,7 @@
 ## 💿 Installation
 
 ```
-💲 pip install shazamio
+💲 pip install MelodyMaster
 ```
 
 ## 💻 Example
@@ -32,7 +32,7 @@ Recognize a track based on a file<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam
+from MelodyMaster import Shazam
 
 
 async def main():
@@ -56,7 +56,7 @@ Retrieving information from an artist profile<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -84,7 +84,7 @@ Get track information<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -111,7 +111,7 @@ Returns the number of times a particular song has been played<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam
+from MelodyMaster import Shazam
 
 
 async def main():
@@ -137,7 +137,7 @@ Similar songs based song id<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam
+from MelodyMaster import Shazam
 
 
 async def main():
@@ -160,7 +160,7 @@ loop.run_until_complete(main())
 Search all artists by prefix<br>
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -185,7 +185,7 @@ Search all tracks by prefix<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam
+from MelodyMaster import Shazam
 
 
 async def main():
@@ -209,9 +209,9 @@ Get the top songs according to Shazam<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
-from shazamio.schemas.artists import ArtistQuery
-from shazamio.schemas.enums import ArtistView
+from MelodyMaster import Shazam, Serialize
+from MelodyMaster.schemas.artists import ArtistQuery
+from MelodyMaster.schemas.enums import ArtistView
 
 
 async def main():
@@ -248,7 +248,7 @@ Retrieving information from an artist profile<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -269,7 +269,7 @@ loop.run_until_complete(main())
 
 <details> 
 <summary>
-<i>🔝🎶🏳️‍🌈 Top tracks in country</i>
+<i>🔝🎶 Top tracks in country</i>
 </summary>
 
 Get the best tracks by country code<br>
@@ -277,7 +277,7 @@ Get the best tracks by country code<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -294,7 +294,7 @@ loop.run_until_complete(main())
 
 <details> 
 <summary>
-<i>🔝🎶🏳️‍🌈🎸 Top tracks in country by genre</i>
+<i>🔝🎶🎸 Top tracks in country by genre</i>
 </summary>
 
 The best tracks by a genre in the country<br>
@@ -302,7 +302,7 @@ The best tracks by a genre in the country<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, GenreMusic
+from MelodyMaster import Shazam, GenreMusic
 
 
 async def main():
@@ -329,7 +329,7 @@ Get world tracks by certain genre<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize, GenreMusic
+from MelodyMaster import Shazam, Serialize, GenreMusic
 
 
 async def main():
@@ -356,7 +356,7 @@ Get the best tracks from all over the world<br>
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
@@ -382,7 +382,7 @@ loop.run_until_complete(main())
 
   ```python3
 import asyncio
-from shazamio import Shazam, Serialize
+from MelodyMaster import Shazam, Serialize
 
 
 async def main():
